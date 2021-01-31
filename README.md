@@ -29,7 +29,7 @@ O Sistema ALF foi desenvolvido na linguagem Python, versão 3.9, utilizando Djan
 
 <img src="DiagramaClassesSistemaALF.png" heigth="500" width="300">
 
-As rotas criadas para consumir a API utilizam visualizações baseadas em funções, através do decorador *api_view*, que, por sua vez, utilizam serializadores baseados nos modelos definidos. Estes serializadores realizam a vailidação dos dados enviados nas requisições, permitindo assim salvar, alterar, listar e excluir dados do banco.
+As rotas criadas para consumir a API utilizam visualizações baseadas em funções, através do decorador *api_view*, que, por sua vez, utilizam serializadores baseados nos modelos definidos. Estes serializadores realizam a validação dos dados enviados nas requisições, permitindo assim salvar, alterar, listar e excluir dados do banco.
 
 * O método *adicionarNovaProva()* apenas salva os dados da Prova (assunto), para ser possível salvar as questões dela;
 * O método *adicionarNovoAluno()* verifica se o limite de 100 alunos cadastrados foi atingido, para então poder salvar o novo Aluno;
