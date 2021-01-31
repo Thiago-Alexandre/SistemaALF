@@ -27,7 +27,7 @@ Uma API HTTP que permita à escola:
 
 O Sistema ALF foi desenvolvido na linguagem Python, versão 3.9, utilizando Django RestFramework. A modelagem de dados foi projetada conforme o Diagrama de Classes a seguir:
 
-<img src="DiagramaClassesSistemaALF.PNG" heigth="500" width="300">
+<img src="DiagramaClassesSistemaALF.png" heigth="500" width="300">
 
 As rotas criadas para consumir a API utilizam visualizações baseadas em funções, através do decorador *api_view*, que, por sua vez, utilizam serializadores baseados nos modelos definidos. Estes serializadores realizam a vailidação dos dados enviados nas requisições, permitindo assim salvar, alterar, listar e excluir dados do banco.
 
